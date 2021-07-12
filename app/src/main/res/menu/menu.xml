@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentBreakingNews"
+        android:icon="@drawable/ic_home"
+        android:title="@string/breaking_news" />
+    <item
+        android:id="@+id/fragmentSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/fragmentBookmarks"
+        android:icon="@drawable/ic_bookmark_gray"
+        android:title="@string/bookmarks" />
+</menu>

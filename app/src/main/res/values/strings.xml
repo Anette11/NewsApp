@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="breaking_news">Breaking news</string>
+    <string name="search">Search</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="picture">Picture</string>
+    <string name="save_article">Save article</string>
+    <string name="search_">Search…</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+    <string name="undo">UNDO</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentBreakingNews">
+
+    <fragment
+        android:id="@+id/fragmentBookmarks"
+        android:name="com.example.newsapp.fragments.FragmentBookmarks"
+        android:label="FragmentSearch"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_fragmentBookmarks_to_fragmentWebView"
+            app:destination="@id/fragmentWebView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSearch"
+        android:name="com.example.newsapp.fragments.FragmentSearch"
+        android:label="FragmentSearch"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_fragmentSearch_to_fragmentWebView"
+            app:destination="@id/fragmentWebView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBreakingNews"
+        android:name="com.example.newsapp.fragments.FragmentBreakingNews"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_breaking_news">
+        <action
+            android:id="@+id/action_fragmentBreakingNews_to_fragmentWebView"
+            app:destination="@id/fragmentWebView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentWebView"
+        android:name="com.example.newsapp.fragments.FragmentWebView"
+        android:label="FragmentWebView" />
+</navigation>
